@@ -1,0 +1,6 @@
+blacklisted-prefixes:
+- admin
+- owner
+- moderator
+chat:
+  format: '{Prefix} {Name} {Suffix} : {Message}'

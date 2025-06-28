@@ -1,0 +1,16 @@
+api-version: '1.21'
+name: PrefixSuffix
+main: com.prefix.suffix.Main
+version: 2.0.0
+commands:
+  setprefix:
+    description: Sets the prefix
+  setsuffix:
+    description: Sets the suffix
+  setnickname:
+      description: Sets the nickname
+  prefixsuffix:
+    description: PrefixSuffix 관리 명령어
+    usage: /prefixsuffix reload
+
+
