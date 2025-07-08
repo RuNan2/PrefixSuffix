@@ -2,5 +2,6 @@ blacklisted-prefixes:
 - admin
 - owner
 - moderator
-chat:
-  format: '{Prefix} {Name} {Suffix} : {Message}'
+chat-format: '{prefix} {nickname} {suffix}: {message}'
+join-format: '{prefix} {nickname} {suffix}님이 서버에 접속했습니다!'
+quit-format: '{prefix} {nickname} {suffix}님이 서버를 떠났습니다!'
